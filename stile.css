@@ -1,0 +1,136 @@
+/* stile.css */
+
+/* Impostazioni generali */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Stile per il titolo principale */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Stile per il modulo */
+form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Stile per le etichette */
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+/* Stile per i campi di input e select */
+input[type="number"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Stile per i pulsanti */
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* Stile per la lista delle giocate recenti */
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e9ecef;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* stile.css */
+
+/* Impostazioni generali */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Stile per il titolo principale */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Stile per il titolo secondario */
+h2 {
+    color: #555;
+    margin-top: 20px;
+}
+
+/* Stile per la tabella */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Stile per le intestazioni della tabella */
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Stile per le righe della tabella */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Stile per i link */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
